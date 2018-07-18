@@ -1,0 +1,940 @@
+@charset "utf-8";
+/* CSS Document */
+
+#back{
+	position:absolute;
+	top:25%;
+	left:5%;
+	width:10%;
+	height:10vh;
+}
+
+#container{
+
+	width:100%;
+	height:1420px;
+	text-align:center;
+	margin-top:15%;
+}
+
+.thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12,.thumbnail13,.thumbnail14,.thumbnail15,.thumbnail16,.thumbnail17{
+	width:20%;
+	padding:0.5%;
+	height:250px;
+	display:none;
+}
+
+#overlay{
+	z-index:2;
+	width:100%;
+	height:900px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7)
+}
+
+.gallery{
+	position:absolute;
+	width:80%;
+	top:3vh;
+	left:10%;
+	height:900px;
+	z-index:2000;
+}
+
+#gallery_nav{
+	width:20%;
+	text-align:center;
+	margin:auto;
+	padding-left:9%;
+}
+
+.img1{
+	background-image:url(../image/photo1.jpg);
+	background-size:100% 900px;
+}
+.img2{
+	background-image:url(../image/photo2.jpg);
+	background-size:100% 900px;
+}
+.img3{
+	background-image:url(../image/photo3.jpg);
+	background-size:100% 900px;
+}
+.img4{
+	background-image:url(../image/photo4.jpg);
+	background-size:100% 900px;
+}
+.img5{
+	background-image:url(../image/photo5.jpg);
+	background-size:100% 1000px;
+}
+.img6{
+	background-image:url(../image/photo6.jpg);
+	background-size:100% 1000px;
+}
+.img7{
+	background-image:url(../image/photo7.jpg);
+	background-size:100% 900px;
+}
+.img8{
+	background-image:url(../image/about2.jpg);
+	background-size:100% 900px;
+}
+
+.img9{
+	background-image:url(../image/photo9.jpg);
+	background-size:100% 900px;
+}
+
+.img10{
+	background-image:url(../image/photo10.jpg);
+	background-size:100% 900px;
+}
+
+.img11{
+	background-image:url(../image/photo11.jpg);
+	background-size:100% 900px;
+}
+
+.img12{
+	background-image:url(../image/photo12.jpg);
+	background-size:100% 900px;
+}
+
+.img13{
+	background-image:url(../image/photo13.jpg);
+	background-size:100% 900px;
+}
+
+.img14{
+	background-image:url(../image/background.jpg);
+	background-size:100% 900px;
+}
+
+.img15{
+	background-image:url(../image/home2.jpg);
+	background-size:100% 900px;
+}
+
+.img16{
+	background-image:url(../image/homeimage2.jpg);
+	background-size:100% 900px;
+}
+
+.img17{
+	background-image:url(../image/home1.jpg);
+	background-size:100% 900px;
+}
+.prev{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	left:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+.next{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	right:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+
+#close{
+	position:fixed;
+	top:2%;
+	right:2%;
+	width:30px;
+	height:30px;
+	background-image:url(../image/close-window-32.png);
+	z-index:3000;
+}
+
+@media screen and (max-width:1366px){
+	
+	
+	#back{
+	position:absolute;
+	top:25%;
+	left:5%;
+	width:10%;
+	height:10vh;
+}
+
+#container{
+
+	width:100%;
+	height:1420px;
+	text-align:center;
+	margin-top:8%;
+}
+
+.thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12,.thumbnail13,.thumbnail14,.thumbnail15,.thumbnail16,.thumbnail17{
+	width:20%;
+	padding:0.5%;
+	height:250px;
+}
+
+#overlay{
+	z-index:2;
+	width:100%;
+	height:900px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7)
+}
+
+.gallery{
+	position:absolute;
+	width:80%;
+	top:3vh;
+	left:10%;
+	height:900px;
+	z-index:2000;
+}
+
+#gallery_nav{
+	width:20%;
+	text-align:center;
+	margin:auto;
+	padding-left:9%;
+}
+
+.img1{
+	background-image:url(../image/photo1.jpg);
+	background-size:100% 900px;
+}
+.img2{
+	background-image:url(../image/photo2.jpg);
+	background-size:100% 900px;
+}
+.img3{
+	background-image:url(../image/photo3.jpg);
+	background-size:100% 900px;
+}
+.img4{
+	background-image:url(../image/photo4.jpg);
+	background-size:100% 900px;
+}
+.img5{
+	background-image:url(../image/photo5.jpg);
+	background-size:100% 1000px;
+}
+.img6{
+	background-image:url(../image/photo6.jpg);
+	background-size:100% 1000px;
+}
+.img7{
+	background-image:url(../image/photo7.jpg);
+	background-size:100% 900px;
+}
+.img8{
+	background-image:url(../image/about2.jpg);
+	background-size:100% 900px;
+}
+
+.img9{
+	background-image:url(../image/photo9.jpg);
+	background-size:100% 900px;
+}
+
+.img10{
+	background-image:url(../image/photo10.jpg);
+	background-size:100% 900px;
+}
+
+.img11{
+	background-image:url(../image/photo11.jpg);
+	background-size:100% 900px;
+}
+
+.img12{
+	background-image:url(../image/photo12.jpg);
+	background-size:100% 900px;
+}
+
+.img13{
+	background-image:url(../image/photo13.jpg);
+	background-size:100% 900px;
+}
+
+.img14{
+	background-image:url(../image/background.jpg);
+	background-size:100% 900px;
+}
+
+.img15{
+	background-image:url(../image/home2.jpg);
+	background-size:100% 900px;
+}
+
+.img16{
+	background-image:url(../image/homeimage2.jpg);
+	background-size:100% 900px;
+}
+
+.img17{
+	background-image:url(../image/home1.jpg);
+	background-size:100% 900px;
+}
+.prev{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	left:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+.next{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	right:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+
+#close{
+	position:fixed;
+	top:2%;
+	right:2%;
+	width:30px;
+	height:30px;
+	background-image:url(../image/close-window-32.png);
+	z-index:3000;
+}
+
+}
+
+@media screen and (max-width:768px){
+	
+	#back{
+	position:absolute;
+	top:25%;
+	left:5%;
+	width:10%;
+	height:10vh;
+}
+
+#container{
+
+	width:100%;
+	height:1580px;
+	text-align:center;
+	margin-top:10%;
+}
+
+.thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12,.thumbnail13,.thumbnail14,.thumbnail15,.thumbnail16,.thumbnail17{
+	width:25%;
+	padding:0.5%;
+	height:250px;
+}
+
+#overlay{
+	z-index:2;
+	width:100%;
+	height:700px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7)
+}
+
+.gallery{
+	position:absolute;
+	width:80%;
+	top:3vh;
+	left:10%;
+	height:700px;
+	z-index:2000;
+}
+
+#gallery_nav{
+	width:20%;
+	text-align:center;
+	margin:auto;
+	padding-left:9%;
+}
+
+.img1{
+	background-image:url(../image/photo1.jpg);
+	background-size:100% 700px;
+}
+.img2{
+	background-image:url(../image/photo2.jpg);
+	background-size:100% 700px;
+}
+.img3{
+	background-image:url(../image/photo3.jpg);
+	background-size:100% 700px;
+}
+.img4{
+	background-image:url(../image/photo4.jpg);
+	background-size:100% 700px;
+}
+.img5{
+	background-image:url(../image/photo5.jpg);
+	background-size:100% 700px;
+}
+.img6{
+	background-image:url(../image/photo6.jpg);
+	background-size:100% 700px;
+}
+.img7{
+	background-image:url(../image/photo7.jpg);
+	background-size:100% 700px;
+}
+.img8{
+	background-image:url(../image/about2.jpg);
+	background-size:100% 700px;
+}
+
+.img9{
+	background-image:url(../image/photo9.jpg);
+	background-size:100% 700px;
+}
+
+.img10{
+	background-image:url(../image/photo10.jpg);
+	background-size:100% 700px;
+}
+
+.img11{
+	background-image:url(../image/photo11.jpg);
+	background-size:100% 700px;
+}
+
+.img12{
+	background-image:url(../image/photo12.jpg);
+	background-size:100% 700px;
+}
+
+.img13{
+	background-image:url(../image/photo13.jpg);
+	background-size:100% 700px;
+}
+
+.img14{
+	background-image:url(../image/background.jpg);
+	background-size:100% 700px;
+}
+
+.img15{
+	background-image:url(../image/home2.jpg);
+	background-size:100% 700px;
+}
+
+.img16{
+	background-image:url(../image/homeimage2.jpg);
+	background-size:100% 700px;
+}
+
+.img17{
+	background-image:url(../image/home1.jpg);
+	background-size:100% 700px;
+}
+.prev{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	left:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+.next{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	right:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+
+#close{
+	position:fixed;
+	top:2%;
+	right:2%;
+	width:30px;
+	height:30px;
+	background-image:url(../image/close-window-32.png);
+	z-index:3000;
+}
+
+}
+
+@media screen and (max-width:435px){
+	
+	#back{
+	position:absolute;
+	top:25%;
+	left:5%;
+	width:10%;
+	height:10vh;
+}
+
+#container{
+
+	width:100%;
+	height:4500px;
+	text-align:center;
+	margin-top:25%;
+}
+
+.thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12,.thumbnail13,.thumbnail14,.thumbnail15,.thumbnail16,.thumbnail17{
+	width:85%;
+	padding:0.5%;
+	height:250px;
+}
+
+#overlay{
+	z-index:2;
+	width:100%;
+	height:300px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7)
+}
+
+.gallery{
+	position:absolute;
+	width:80%;
+	top:3vh;
+	left:10%;
+	height:100000px;
+	z-index:2000;
+}
+
+#gallery_nav{
+	width:20%;
+	text-align:center;
+	margin:auto;
+	padding-left:9%;
+}
+
+.img1{
+	background-image:url(../image/photo1.jpg);
+	background-size:100% 300px;
+}
+.img2{
+	background-image:url(../image/photo2.jpg);
+	background-size:100% 300px;
+}
+.img3{
+	background-image:url(../image/photo3.jpg);
+	background-size:100% 300px;
+}
+.img4{
+	background-image:url(../image/photo4.jpg);
+	background-size:100% 300px;
+}
+.img5{
+	background-image:url(../image/photo5.jpg);
+	background-size:100% 300px;
+}
+.img6{
+	background-image:url(../image/photo6.jpg);
+	background-size:100% 300px;
+}
+.img7{
+	background-image:url(../image/photo7.jpg);
+	background-size:100% 300px;
+}
+.img8{
+	background-image:url(../image/about2.jpg);
+	background-size:100% 300px;
+}
+
+.img9{
+	background-image:url(../image/photo9.jpg);
+	background-size:100% 300px;
+}
+
+.img10{
+	background-image:url(../image/photo10.jpg);
+	background-size:100% 300px;
+}
+
+.img11{
+	background-image:url(../image/photo11.jpg);
+	background-size:100% 400px;
+}
+
+.img12{
+	background-image:url(../image/photo12.jpg);
+	background-size:100% 300px;
+}
+
+.img13{
+	background-image:url(../image/photo13.jpg);
+	background-size:100% 300px;
+}
+
+.img14{
+	background-image:url(../image/background.jpg);
+	background-size:100% 300px;
+}
+
+.img15{
+	background-image:url(../image/home2.jpg);
+	background-size:100% 300px;
+}
+
+.img16{
+	background-image:url(../image/homeimage2.jpg);
+	background-size:100% 300px;
+}
+
+.img17{
+	background-image:url(../image/home1.jpg);
+	background-size:100% 300px;
+}
+.prev{
+	padding-top:1%;
+	width:10%;
+	height:11%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	left:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+.left{
+	height:30px;
+	width:30px;
+}
+
+.right{
+	height:30px;
+	width:30px;
+}
+
+.next{
+	padding-top:1%;
+	width:10%;
+	height:11%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	right:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+
+
+
+#close{
+	position:fixed;
+	top:2%;
+	right:2%;
+	width:30px;
+	height:30px;
+	background-image:url(../image/close-window-32.png);
+	z-index:3000;
+}
+
+	
+	
+}
+
+@media screen and (max-width:360px){
+	
+	#back{
+	position:absolute;
+	top:25%;
+	left:5%;
+	width:10%;
+	height:10vh;
+}
+
+#container{
+
+	width:100%;
+	height:1420px;
+	text-align:center;
+	margin-top:15%;
+}
+
+.thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12,.thumbnail13,.thumbnail14,.thumbnail15,.thumbnail16,.thumbnail17{
+	width:20%;
+	padding:0.5%;
+	height:250px;
+}
+
+#overlay{
+	z-index:2;
+	width:100%;
+	height:900px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7)
+}
+
+.gallery{
+	position:absolute;
+	width:80%;
+	top:3vh;
+	left:10%;
+	height:900px;
+	z-index:2000;
+}
+
+#gallery_nav{
+	width:20%;
+	text-align:center;
+	margin:auto;
+	padding-left:9%;
+}
+
+.img1{
+	background-image:url(../image/photo1.jpg);
+	background-size:100% 900px;
+}
+.img2{
+	background-image:url(../image/photo2.jpg);
+	background-size:100% 900px;
+}
+.img3{
+	background-image:url(../image/photo3.jpg);
+	background-size:100% 900px;
+}
+.img4{
+	background-image:url(../image/photo4.jpg);
+	background-size:100% 900px;
+}
+.img5{
+	background-image:url(../image/photo5.jpg);
+	background-size:100% 1000px;
+}
+.img6{
+	background-image:url(../image/photo6.jpg);
+	background-size:100% 1000px;
+}
+.img7{
+	background-image:url(../image/photo7.jpg);
+	background-size:100% 900px;
+}
+.img8{
+	background-image:url(../image/about2.jpg);
+	background-size:100% 900px;
+}
+
+.img9{
+	background-image:url(../image/photo9.jpg);
+	background-size:100% 900px;
+}
+
+.img10{
+	background-image:url(../image/photo10.jpg);
+	background-size:100% 900px;
+}
+
+.img11{
+	background-image:url(../image/photo11.jpg);
+	background-size:100% 900px;
+}
+
+.img12{
+	background-image:url(../image/photo12.jpg);
+	background-size:100% 900px;
+}
+
+.img13{
+	background-image:url(../image/photo13.jpg);
+	background-size:100% 900px;
+}
+
+.img14{
+	background-image:url(../image/background.jpg);
+	background-size:100% 900px;
+}
+
+.img15{
+	background-image:url(../image/home2.jpg);
+	background-size:100% 900px;
+}
+
+.img16{
+	background-image:url(../image/homeimage2.jpg);
+	background-size:100% 900px;
+}
+
+.img17{
+	background-image:url(../image/home1.jpg);
+	background-size:100% 900px;
+}
+.prev{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	left:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+.next{
+	padding-top:1%;
+	width:5%;
+	height:8%;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:40%;
+	right:0;
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1vw;
+}
+
+
+#close{
+	position:fixed;
+	top:2%;
+	right:2%;
+	width:30px;
+	height:30px;
+	background-image:url(../image/close-window-32.png);
+	z-index:3000;
+}
+
+}
+
+@media screen and (max-width:435px){
+	
+	#back{
+	position:absolute;
+	top:25%;
+	left:5%;
+	width:10%;
+	height:10vh;
+}
+
+#container{
+
+	width:100%;
+	height:4500px;
+	text-align:center;
+	margin-top:25%;
+}
+
+.thumbnail1,.thumbnail2,.thumbnail3,.thumbnail4,.thumbnail5,.thumbnail6,.thumbnail7,.thumbnail8,.thumbnail9,.thumbnail10,.thumbnail11,.thumbnail12,.thumbnail13,.thumbnail14,.thumbnail15,.thumbnail16,.thumbnail17{
+	width:85%;
+	padding:0.5%;
+	height:250px;
+}
+
+#overlay{
+	z-index:2;
+	width:100%;
+	height:300px;
+	top:0;
+	left:0;
+	background:rgba(0,0,0,0.7)
+}
+
+.gallery{
+	position:absolute;
+	width:85%;
+	top:3vh;
+	left:5%;
+	height:300px;
+	z-index:2000;
+}
+
+#gallery_nav{
+	width:20%;
+	text-align:center;
+	margin:auto;
+	padding-left:9%;
+}
+
+.img1{
+	background-image:url(../image/photo1.jpg);
+	background-size:100% 300px;
+}
+.img2{
+	background-image:url(../image/photo2.jpg);
+	background-size:100% 300px;
+}
+.img3{
+	background-image:url(../image/photo3.jpg);
+	background-size:100% 300px;
+}
+.img4{
+	background-image:url(../image/photo4.jpg);
+	background-size:100% 300px;
+}
+.img5{
+	background-image:url(../image/photo5.jpg);
+	background-size:100% 300px;
+}
+.img6{
+	background-image:url(../image/photo6.jpg);
+	background-size:100% 300px;
+}
+.img7{
+	background-image:url(../image/photo7.jpg);
+	background-size:100% 300px;
+}
+.img8{
+	background-image:url(../image/about2.jpg);
+	background-size:100% 300px;
+}
+
+.img9{
+	background-image:url(../image/photo9.jpg);
+	background-size:100% 300px;
+}
+
+.img10{
+	background-image:url(../image/photo10.jpg);
+	background-size:100% 300px;
+}
+
+.img11{
+	background-image:url(../image/photo11.jpg);
+	background-size:100% 300px;
+}
+
+.img12{
+	background-image:url(../image/photo12.jpg);
+	background-size:100% 300p

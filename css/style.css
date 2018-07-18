@@ -1,0 +1,682 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	
+}
+ 
+#header {
+ background: #64d0fd;
+ width: 100%;
+ height: 76px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 100;
+}
+ 
+ul {
+ list-style: none;
+}
+ 
+li {
+ display: inline-block;
+ float: left;
+ padding: 10px
+}
+ 
+a {
+ color: #fff;
+ text-decoration: none;
+ font-weight: bold;
+}
+ 
+a:hover {
+ text-decoration: underline;
+}
+ 
+.logo {
+ margin: 20px;
+ float: left;
+ width: 200px;
+ height: 50px;
+ display: block;
+}
+ 
+nav {
+ float: right;
+ padding: 10px;
+ font-family: 'Open Sans', sans-serif;
+}
+ 
+.menu-icon {
+ width: 32px;
+ height: 32px;
+display:none;
+}
+
+
+#image{
+	height:850px;
+	width:100%;
+	background-postion:cover;
+	background: url(../image/about1.jpg);
+	background-size:100% 100%;
+	display:none;
+}
+
+.image{
+
+	height:850px;
+	width:100%;
+
+}
+
+#image1{
+	
+display:none;
+}
+
+.photo{
+	height:300px;
+	width:25%;
+	margin:0 auto;
+	padding-left:100px;
+}
+
+.web{
+	height:300px;
+	width:25%;
+	padding-left:100px;
+}
+
+
+
+.text{
+	text-align:center;
+	font-family:verdana;
+	font-size:36px;
+	padding:300px;
+	color:white;
+	display:none;
+}
+
+
+
+.text1{
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:black;
+	height:200px;
+	width:100%;
+	
+}
+
+.software{
+	height:180px;
+	width:100%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	
+}
+
+#work{
+	height:1250px;
+	width:100%;
+	text-align:center;
+	top:10px;
+	display:none;
+	
+}
+
+.video{
+	height:300px;
+	width:25%;
+	padding-left:100px;
+}
+
+#contact{
+	height:750px;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+	font-size:18px;
+}
+
+
+#phone{
+	height:150px;
+	width:50%;
+	font-size:40px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+	display:none;
+}
+
+#email{
+	height:150px;
+	width:50%;
+	font-size:40px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+	display:none;
+
+}
+
+#socialmedia{
+	height:150px;
+	width:50%;
+	font-size:40px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+	display:none;
+}
+
+
+#title{
+	position:absolute;
+	height:50px;
+	width:100%;
+	background:#64d0fd;
+		text-align:center;
+	font-family:verdana;
+	font-size:18px;
+
+}
+
+h2{
+	color:#0373fe;
+	text-align:center;
+}
+
+#specialise{
+		width:100%;
+	margin:5px;
+	margin-top:25px;
+	
+	
+}
+
+.img{
+	height:300px;
+	width:33%;
+
+}
+
+.img:hover{
+	background-color:#64d0fd;
+}
+
+
+
+
+#arrow{
+	text-align:center;
+}
+
+.up{
+	height:76px;
+	width:76px;
+}
+
+#footer{
+	 background: #64d0fd;
+ width: 100%;
+ height: 90px;
+ top: 0;
+ left: 0;
+ z-index: 100;
+	text-align:center;
+	font-family: verdana;
+	font-size:12px;
+}
+
+.hover{
+	height:35px;
+	width:35px;
+	float:left;
+	padding-left:5px;
+}
+
+
+
+
+@media only screen and (max-width : 1024px) { 
+ header {
+ position: fixed;
+	 width:100%;
+ }
+ 
+	
+	.image{
+	top: 0;
+ left: 0;
+right:10px;
+
+	height:500px;
+	width:100%;
+
+}
+	
+	.web{
+	height:300px;
+	width:20%;
+	padding-left:80px;
+}
+	
+		.photo{
+	height:300px;
+	width:20%;
+	padding-left:80px;
+}
+	
+	.video{
+	height:300px;
+	width:38%;
+	padding-left:50px;
+}
+	
+	#phone{
+	height:130px;
+	width:50%;
+	font-size:20px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+		display:none;
+}
+	
+	#work{
+		height:1180px;
+		width:100%;
+	}
+	
+ .menu-icon {
+ display:inline-block;
+ }
+ 
+ nav ul, nav:active ul { 
+ display: none;
+ position: absolute;
+ padding: 20px;
+ background: #64d0fd;
+ right: 10px;
+ top: 65px;
+ width: 30%;
+ }
+ 
+ nav:hover ul {
+ display: block;
+ }
+ 
+ nav li {
+ text-align: center;
+ width: 100%;
+ padding: 15px 0;
+ margin: 0;
+ }
+	
+
+}
+
+
+@media only screen and (max-width : 768px) {
+	
+*{
+	padding:0;
+	margin:0;
+	
+}
+	
+header {
+ position: fixed;
+	width:100%;
+ }
+
+	
+	
+.img{
+	height:300px;
+	width:30%;
+	text-align:center;
+	padding-left:15px;
+}
+	
+	.image{
+		width:100%;
+	}
+	
+	#image{
+		height:850px;
+		width:100%;
+	background-postion:cover;
+	background: url(../image/about1.jpg);
+	background-size:100% 850px;
+}
+	
+	#specialise{
+	height:400px;
+		width:100%;
+	margin:5px;
+	margin-top:25px;
+	
+}
+
+
+	
+	.text1{
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:black;
+	height:280px;
+	width:100%;
+	
+}
+	
+	.text{
+
+	font-family:verdana;
+	font-size:36px;
+		float:left;
+	padding:100px;
+	color:white;
+	width:33%;
+		padding-right:200px;
+	
+}
+	
+	.photo{
+	height:300px;
+	width:28%;
+	margin:0 auto;
+	padding-left:25px;
+}
+
+.web{
+	height:300px;
+	width:20%;
+	padding-left:80px;
+}
+	
+	.video{
+	height:300px;
+	width:38%;
+	padding-left:50px;
+}
+	
+	#phone{
+	height:130px;
+	width:50%;
+	font-size:20px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+		display:none;
+}
+
+#email{
+	height:130px;
+	width:50%;
+	font-size:20px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+	display:none;
+}
+	
+	#socialmedia{
+	height:130px;
+	width:50%;
+	font-size:20px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+		display:none;
+}
+	
+
+
+}
+
+@media only screen and (max-width : 435px){
+	
+			#specialise{
+	height:900px;
+		width:100%;	
+}
+	
+		.img{
+	height:300px;
+	width:85%;
+	text-align:center;
+		padding-left:15px;
+
+}
+	
+	.text1{
+		height:420px;
+	}
+	
+	
+
+		#phone{
+	height:100px;
+	width:83%;
+	font-size:18px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+			display:none;
+}
+
+#email{
+	height:100px;
+	width:83%;
+	font-size:18px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+	display:none;
+
+}
+	
+	#socialmedia{
+	height:100px;
+	width:83%;
+	font-size:18px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+		display:none;
+}
+	
+		.photo{
+	height:300px;
+	width:85%;
+	margin:0 auto;
+	padding-left:10px;
+}
+
+.web{
+	height:300px;
+	width:85%;
+	padding-left:25px;
+}
+	
+	.video{
+	height:300px;
+	width:85%;
+	padding-left:10px;
+}
+	
+	#work{
+	height:2750px;
+	width:100%;
+	text-align:center;
+	top:10px;
+	display:none;
+	
+}
+	
+	
+}
+
+@media only screen and (max-width : 320px) {
+	*{
+	padding:0;
+	margin:0;
+	
+}
+	
+	header {
+	width:100%;
+ }
+
+	
+		#image{
+	background-postion:center;
+	background: url(../image/about1.jpg);
+	background-size:100% 100%;
+}
+	
+	#image1{
+		padding-top:75px;
+	}
+	
+.image{
+
+	height:300px;
+	width:100%;
+	right:10px;
+
+}
+
+	
+.text{
+	height:180px;
+	width:33%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	padding-right:5px;
+	
+}
+	
+		.text1{
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:black;
+	height:500px;
+	width:100%;
+	
+}
+
+#title{
+	height:65px;
+	width:100%;
+	background:#64d0fd;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	margin-top:-7px;
+
+}
+	
+		#specialise{
+	height:900px;
+		width:100%;	
+}
+	
+		.img{
+	height:300px;
+	width:85%;
+	text-align:center;
+		padding-left:15px;
+
+}
+	
+	
+
+		#phone{
+	height:100px;
+	width:83%;
+	font-size:18px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+			display:none;
+}
+
+#email{
+	height:100px;
+	width:83%;
+	font-size:18px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+		font-family:verdana;
+	display:none;
+
+}
+	
+	#socialmedia{
+	height:100px;
+	width:83%;
+	font-size:18px;
+	background:#64d0fd;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+		display:none;
+}
+	
+		.photo{
+	height:300px;
+	width:85%;
+	margin:0 auto;
+	padding-left:10px;
+}
+
+.web{
+	height:300px;
+	width:85%;
+	padding-left:25px;
+}
+	
+	.video{
+	height:300px;
+	width:85%;
+	padding-left:10px;
+}
+	
+	#work{
+	height:2750px;
+	width:100%;
+	text-align:center;
+	top:10px;
+	display:none;
+	
+}
+}
+
