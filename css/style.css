@@ -120,7 +120,7 @@ display:none;
 }
 
 .software{
-	height:180px;
+	height:210px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
@@ -236,6 +236,8 @@ h2{
 
 #arrow{
 	text-align:center;
+	height:100px;
+	width:100%;
 }
 
 .up{
