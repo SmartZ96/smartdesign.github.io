@@ -4,11 +4,14 @@
 *{
 	padding:0;
 	margin:0;
-	
 }
  
+#container{
+	background:grey;
+}
+
 #header {
- background: #64d0fd;
+ background: black;
  width: 100%;
  height: 76px;
  position: fixed;
@@ -28,7 +31,7 @@ li {
 }
  
 a {
- color: #fff;
+ color: red;
  text-decoration: none;
  font-weight: bold;
 }
@@ -83,13 +86,13 @@ display:none;
 	height:300px;
 	width:25%;
 	margin:0 auto;
-	padding-left:100px;
+	padding-left:80px;
 }
 
 .web{
 	height:300px;
 	width:25%;
-	padding-left:100px;
+	padding-left:80px;
 }
 
 
@@ -99,7 +102,7 @@ display:none;
 	font-family:verdana;
 	font-size:36px;
 	padding:300px;
-	color:white;
+	color:red;
 	display:none;
 }
 
@@ -109,7 +112,7 @@ display:none;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:red;
 	height:200px;
 	width:100%;
 	
@@ -127,16 +130,16 @@ display:none;
 #work{
 	height:1250px;
 	width:100%;
-	text-align:center;
-	top:10px;
-	display:none;
+	padding-right:8px;
+	top:8px;
+	background:grey;
 	
 }
 
 .video{
 	height:300px;
 	width:25%;
-	padding-left:100px;
+	padding-left:80px;
 }
 
 #contact{
@@ -146,6 +149,7 @@ display:none;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
+	color:red;
 }
 
 
@@ -153,22 +157,24 @@ display:none;
 	height:150px;
 	width:50%;
 	font-size:40px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
+	color:red;
 }
 
 #email{
 	height:150px;
 	width:50%;
 	font-size:40px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
+	color:red;
 
 }
 
@@ -176,11 +182,12 @@ display:none;
 	height:150px;
 	width:50%;
 	font-size:40px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 	display:none;
+	color: red;
 }
 
 
@@ -188,15 +195,20 @@ display:none;
 	position:absolute;
 	height:50px;
 	width:100%;
-	background:#64d0fd;
+	background:black;
 		text-align:center;
 	font-family:verdana;
 	font-size:18px;
+	color: red;
 
 }
 
+h1{
+	text-align:center;
+}
+
 h2{
-	color:#0373fe;
+	color:red;
 	text-align:center;
 }
 
@@ -215,7 +227,7 @@ h2{
 }
 
 .img:hover{
-	background-color:#64d0fd;
+	background-color:black;
 }
 
 
@@ -231,7 +243,7 @@ h2{
 }
 
 #footer{
-	 background: #64d0fd;
+	 background: black;
  width: 100%;
  height: 90px;
  top: 0;
@@ -240,6 +252,7 @@ h2{
 	text-align:center;
 	font-family: verdana;
 	font-size:12px;
+	color: red;
 }
 
 .hover{
@@ -283,7 +296,7 @@ right:10px;
 	
 	.video{
 	height:300px;
-	width:38%;
+	width:25%;
 	padding-left:50px;
 }
 	
@@ -291,11 +304,12 @@ right:10px;
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 		display:none;
+		color:red;
 }
 	
 	#work{
@@ -311,10 +325,11 @@ right:10px;
  display: none;
  position: absolute;
  padding: 20px;
- background: #64d0fd;
+ background: black;
  right: 10px;
  top: 65px;
  width: 30%;
+ color:red;
  }
  
  nav:hover ul {
@@ -380,7 +395,7 @@ header {
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:red;
 	height:280px;
 	width:100%;
 	
@@ -392,7 +407,7 @@ header {
 	font-size:36px;
 		float:left;
 	padding:100px;
-	color:white;
+	color:red;
 	width:33%;
 		padding-right:200px;
 	
@@ -413,41 +428,44 @@ header {
 	
 	.video{
 	height:300px;
-	width:38%;
-	padding-left:50px;
+	width:28%;
+	padding-left:30px;
 }
 	
 	#phone{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 		display:none;
+		color:red;
 }
 
 #email{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
+	color:red;
 }
 	
 	#socialmedia{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
+		color:red;
 }
 	
 
@@ -479,22 +497,24 @@ header {
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 			display:none;
+			color:red;
 }
 
 #email{
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
+	color:red;
 
 }
 	
@@ -502,11 +522,12 @@ header {
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
+		color:red;
 }
 	
 		.photo{
@@ -529,7 +550,7 @@ header {
 }
 	
 	#work{
-	height:2750px;
+	height:3300px;
 	width:100%;
 	text-align:center;
 	top:10px;
@@ -594,11 +615,12 @@ header {
 #title{
 	height:65px;
 	width:100%;
-	background:#64d0fd;
+	background:black
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
 	margin-top:-7px;
+	color:red;
 
 }
 	
@@ -621,22 +643,24 @@ header {
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 			display:none;
+			color:red;
 }
 
 #email{
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
+	color:red;
 
 }
 	
@@ -644,11 +668,12 @@ header {
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:#64d0fd;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
+		color:red;
 }
 	
 		.photo{
@@ -671,7 +696,7 @@ header {
 }
 	
 	#work{
-	height:2750px;
+	height:3050px;
 	width:100%;
 	text-align:center;
 	top:10px;
