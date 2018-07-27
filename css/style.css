@@ -65,6 +65,7 @@ display:none;
 	background: url(../image/about1.jpg);
 	background-size:100% 100%;
 	display:none;
+	background:black;
 }
 
 .image{
@@ -73,12 +74,17 @@ display:none;
 	width:100%;
 	margin:auto;
 	padding:0;
+	background:black;
 
 }
 
 #image1{
 	
 display:none;
+bottom:3px;
+height:850px;
+width:100%;
+background:black;
 }
 
 .photo{
@@ -126,6 +132,7 @@ display:none;
 	font-size:18px;
 	color:red;
 	background:black;
+	bottom:1px;
 	
 }
 
@@ -143,14 +150,14 @@ display:none;
 }
 
 #contact{
-	height:750px;
+	height:630px;
 	width:100%;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
 	color:red;
-	background:grey;
+	background:black;
 }
 
 
@@ -164,6 +171,7 @@ display:none;
 		font-family:verdana;
 	display:none;
 	color:red;
+	border: solid 3px red;
 }
 
 #email{
@@ -176,6 +184,7 @@ display:none;
 		font-family:verdana;
 	display:none;
 	color:red;
+	border: solid 3px red;
 
 }
 
@@ -188,6 +197,7 @@ display:none;
 	margin:0 auto;
 	font-family:verdana;
 	display:none;
+	border: solid 3px red;
 	color: red;
 }
 
@@ -239,7 +249,7 @@ h2{
 	text-align:center;
 	height:100px;
 	width:100%;
-	background:black;
+	background:grey;
 }
 
 .up{
@@ -248,16 +258,16 @@ h2{
 }
 
 #footer{
-	 background: black;
+background: black;
  width: 100%;
  height: 90px;
  top: 0;
  left: 0;
  z-index: 100;
-	text-align:center;
-	font-family: verdana;
-	font-size:12px;
-	color: red;
+text-align:center;
+font-family: verdana;
+font-size:12px;
+color: red;
 }
 
 .hover{
@@ -269,14 +279,20 @@ h2{
 
 
 
-
 @media only screen and (max-width : 1024px) { 
  header {
  position: fixed;
 	 width:100%;
  }
  
+#image1{
 	
+display:none;
+bottom:3px;
+height:850px;
+width:100%;
+background:black;
+}	
 	.image{
 	top: 0;
  left: 0;
@@ -365,7 +381,14 @@ header {
 	width:100%;
  }
 
+#image1{
 	
+display:none;
+bottom:3px;
+height:540px;
+width:100%;
+background:black;
+}	
 	
 .img{
 	height:280px;
@@ -382,15 +405,12 @@ header {
 		height:850px;
 		width:100%;
 	background-postion:cover;
-	background: url(../image/about1.jpg);
-	background-size:100% 850px;
+
 }
 	
 	#specialise{
 	height:400px;
 		width:100%;
-	margin:5px;
-	margin-top:25px;
 	
 }
 
@@ -436,7 +456,17 @@ header {
 	width:28%;
 	padding-left:30px;
 }
-	
+
+#contact{
+	height:630px;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+	background:black;
+}	
 	#phone{
 	height:130px;
 	width:50%;
@@ -585,7 +615,7 @@ header {
 }
 	
 	#image1{
-		padding-top:75px;
+		height:320px;
 	}
 	
 .image{
@@ -603,7 +633,7 @@ header {
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	padding-right:5px;
+	color:red;
 	
 }
 	
@@ -611,7 +641,7 @@ header {
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:red;
 	height:500px;
 	width:100%;
 	
@@ -630,15 +660,15 @@ header {
 }
 	
 		#specialise{
-	height:900px;
-		width:100%;	
+	height:550px;
+		width:100%;
+		padding-top:3px;	
 }
 	
 		.img{
-	height:300px;
-	width:100%;
+	height:150px;
+	width:75%;
 	text-align:center;
-		padding-left:15px;
 
 }
 	
