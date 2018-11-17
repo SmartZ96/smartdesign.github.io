@@ -643,7 +643,7 @@ background:black;
 
 #game{
 	background:black;
-	height:1300px;
+	height:1350px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
@@ -659,7 +659,17 @@ background:black;
 	display:none;
 	
 }
-	
+
+#contact{
+	height:500px;
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+	background:black;
+}	
 	
 }
 
@@ -709,7 +719,7 @@ background:black;
 	font-family:verdana;
 	font-size:18px;
 	color:red;
-	height:900px;
+	height:940px;
 	width:100%;
 	
 }
@@ -808,7 +818,7 @@ background:black;
 
 #game{
 	background:black;
-	height:1300px;
+	height:1380px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
