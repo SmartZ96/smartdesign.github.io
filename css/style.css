@@ -106,7 +106,6 @@ background:black;
 }
 
 
-
 .text{
 	text-align:center;
 	font-family:verdana;
@@ -123,7 +122,7 @@ background:black;
 	font-family:verdana;
 	font-size:18px;
 	color:red;
-	height:500px;
+	height:550px;
 	width:100%;
 	background:black;
 	
@@ -161,6 +160,22 @@ background:black;
 	font-family:verdana;
 	font-size:18px;
 	color:red;
+}
+
+#research{
+	background:black;
+	height:2000px;
+	width:100%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+}
+
+.research{
+	height:550px;
+	width:40%;
+	text-align:center;
 }
 
 #game{
@@ -371,6 +386,22 @@ right:10px;
 		height:1180px;
 		width:100%;
 	}
+
+#research{
+	background:black;
+	height:2050px;
+	width:100%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+}
+
+.research{
+	height:550px;
+	width:40%;
+	text-align:center;
+}
 	
  .menu-icon {
  display:inline-block;
@@ -386,6 +417,7 @@ right:10px;
  width: 30%;
  color:red;
  }
+ 
  
  nav:hover ul {
  display: block;
@@ -503,6 +535,22 @@ background:black;
 	font-family:verdana;
 	font-size:18px;
 	color:red;
+}
+
+#research{
+	background:black;
+	height:2100px;
+	width:100%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+}
+
+.research{
+	height:550px;
+	width:45%;
+	text-align:center;
 }
 #contact{
 	height:630px;
@@ -671,6 +719,22 @@ background:black;
 	background:black;
 }	
 	
+#research{
+	background:black;
+	height:2800px;
+	width:100%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+}
+
+.research{
+	height:443px;
+	width:100%;
+	text-align:center;
+}
+
 }
 
 @media only screen and (max-width : 320px) {
@@ -832,6 +896,22 @@ background:black;
 	top:10px;
 	display:none;
 	
+}
+
+#research{
+	background:black;
+	height:2950px;
+	width:100%;
+	text-align:center;
+	font-family:verdana;
+	font-size:18px;
+	color:red;
+}
+
+.research{
+	height:443px;
+	width:100%;
+	text-align:center;
 }
 }
 
