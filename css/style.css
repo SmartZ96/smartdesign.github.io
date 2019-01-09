@@ -492,7 +492,7 @@ background:black;
 	font-family:verdana;
 	font-size:18px;
 	color:red;
-	height:600px;
+	height:650px;
 	width:100%;
 	
 }
@@ -605,7 +605,7 @@ background:black;
 @media only screen and (max-width : 435px){
 	
 			#specialise{
-	height:2100px;
+	height:2400px;
 		width:100%;	
 }
 	
@@ -618,7 +618,7 @@ background:black;
 }
 	
 	.text1{
-		height:800px;
+		height:900px;
 	}
 	
 	
