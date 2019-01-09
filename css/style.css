@@ -602,10 +602,10 @@ background:black;
 
 }
 
-@media only screen and (max-width : 500px){
+@media only screen and (max-width : 430px){
 	
 			#specialise{
-	height:2420px;
+	height:1750px;
 		width:100%;	
 }
 	
@@ -735,12 +735,6 @@ background:black;
 	text-align:center;
 }
 
-}
-
-@media only screen and (max-width : 360px){
-#specialise{
-	height:1900px;
-}
 }
 
 @media only screen and (max-width : 320px) {
