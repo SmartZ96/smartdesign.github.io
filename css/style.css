@@ -480,7 +480,7 @@ background:black;
 }
 	
 	#specialise{
-	height:1100px;
+	height:900px;
 		width:100%;
 	
 }
@@ -605,7 +605,7 @@ background:black;
 @media only screen and (max-width : 435px){
 	
 			#specialise{
-	height:3100px;
+	height:2420px;
 		width:100%;	
 }
 	
@@ -737,6 +737,12 @@ background:black;
 
 }
 
+@media only screen and (max-width : 360px){
+#specialise{
+	height:1900px;
+}
+}
+
 @media only screen and (max-width : 320px) {
 	*{
 	padding:0;
@@ -801,7 +807,7 @@ background:black;
 }
 	
 		#specialise{
-	height:1700px;
+	height:1380px;
 		width:100%;
 		padding-top:3px;	
 }
