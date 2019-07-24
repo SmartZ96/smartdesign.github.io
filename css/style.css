@@ -491,7 +491,7 @@ background:black;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 	height:650px;
 	width:100%;
 	
@@ -503,7 +503,7 @@ background:black;
 	font-size:36px;
 		float:left;
 	padding:100px;
-	color:red;
+	color:black;
 	width:33%;
 		padding-right:200px;
 	
@@ -528,23 +528,23 @@ background:black;
 }
 
 #video{
-	background:black;
+	background:white;
 	height:2413px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 
 #research{
-	background:black;
+	background:white;
 	height:2100px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 
 .research{
@@ -559,43 +559,43 @@ background:black;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
-	background:black;
+	color:black;
+	background:white;
 }	
 	#phone{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 		display:none;
-		color:red;
+		color:black;
 }
 
 #email{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:red;
+	color:black;
 }
 	
 	#socialmedia{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
-		color:red;
+		color:black;
 }
 	
 
@@ -627,24 +627,24 @@ background:black;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 			display:none;
-			color:red;
+			color:black;
 }
 
 #email{
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:red;
+	color:black;
 
 }
 	
@@ -652,12 +652,12 @@ background:black;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
-		color:red;
+		color:black;
 }
 	
 		.photo{
@@ -680,23 +680,23 @@ background:black;
 }
 
 #video{
-	background:black;
+	background:white;
 	height:1760px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 
 #game{
-	background:black;
+	background:white;
 	height:1350px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 	
 	#work{
@@ -715,18 +715,18 @@ background:black;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
-	background:black;
+	color:black;
+	background:white;
 }	
 	
 #research{
-	background:black;
+	background:white;
 	height:2800px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 
 .research{
@@ -774,7 +774,7 @@ background:black;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 	
 }
 	
@@ -782,7 +782,7 @@ background:black;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 	height:940px;
 	width:100%;
 	
@@ -791,12 +791,12 @@ background:black;
 #title{
 	height:65px;
 	width:100%;
-	background:black
+	background:white;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
 	margin-top:-7px;
-	color:red;
+	color:black;
 
 }
 	
@@ -819,24 +819,24 @@ background:black;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 			display:none;
-			color:red;
+			color:black;
 }
 
 #email{
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:red;
+	color:black;
 
 }
 	
@@ -844,12 +844,12 @@ background:black;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:black;
+	background:white;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
-		color:red;
+		color:black;
 }
 	
 		.photo{
@@ -871,23 +871,23 @@ background:black;
 }
 
 #video{
-	background:black;
+	background:white;
 	height:1800px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 
 #game{
-	background:black;
+	background:white;
 	height:1380px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }	
 	#work{
 	height:3150px;
@@ -899,13 +899,13 @@ background:black;
 }
 
 #research{
-	background:black;
+	background:white;
 	height:2950px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:red;
+	color:black;
 }
 
 .research{
