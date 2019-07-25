@@ -10,7 +10,7 @@
 
 
 #header {
- background: white;
+ background: black;
  width: 100%;
  height: 76px;
  position: fixed;
@@ -70,7 +70,7 @@ display:none;
 	background: url(../image/about1.jpg);
 	background-size:100% 100%;
 	display:none;
-	background:white;
+	background:black;
 }
 
 .image{
@@ -79,7 +79,7 @@ display:none;
 	width:100%;
 	margin:auto;
 	padding:0;
-	background:white;
+	background:black;
 
 }
 
@@ -89,7 +89,7 @@ display:none;
 bottom:3px;
 height:850px;
 width:100%;
-background:white;
+background:black;
 }
 
 .photo{
@@ -121,10 +121,10 @@ background:white;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 	height:550px;
 	width:100%;
-	background:white;
+	background:black;
 	
 }
 
@@ -134,8 +134,8 @@ background:white;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
-	background:white;
+	color:white;
+	background:black;
 	bottom:1px;
 	
 }
@@ -143,7 +143,7 @@ background:white;
 #work{
 	height:1250px;
 	width:100%;
-	background:white;
+	background:black;
 	
 }
 
@@ -153,23 +153,23 @@ background:white;
 }
 
 #video{
-	background:white;
+	background:black;
 	height:2350px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 #research{
-	background:white;
+	background:black;
 	height:2000px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 .research{
@@ -179,13 +179,13 @@ background:white;
 }
 
 #game{
-	background:white;
+	background:black;
 	height:1800px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 #contact{
@@ -195,8 +195,8 @@ background:white;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
-	background:white;
+	color:white;
+	background:black;
 }
 
 
@@ -204,26 +204,26 @@ background:white;
 	height:150px;
 	width:50%;
 	font-size:40px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:black;
-	border: solid 3px black;
+	color:white;
+	border: solid 3px white;
 }
 
 #email{
 	height:150px;
 	width:50%;
 	font-size:40px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:black;
-	border: solid 3px black;
+	color:white;
+	border: solid 3px white;
 
 }
 
@@ -231,13 +231,13 @@ background:white;
 	height:150px;
 	width:50%;
 	font-size:40px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 	display:none;
-	border: solid 3px black;
-	color: black;
+	border: solid 3px white;
+	color: white;
 }
 
 
@@ -245,11 +245,11 @@ background:white;
 	position:absolute;
 	height:50px;
 	width:100%;
-	background:white;
+	background:black;
 		text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color: black;
+	color: white;
 
 }
 
@@ -258,14 +258,14 @@ h1{
 }
 
 h2{
-	color:black;
+	color:white;
 	text-align:center;
 }
 
 #specialise{
 		width:100%;
 		text-align:center;
-	background:white;
+	background:black;
 	
 	
 }
@@ -282,7 +282,7 @@ h2{
 	text-align:center;
 	height:100px;
 	width:100%;
-	background:white;
+	background:black;
 }
 
 .up{
@@ -291,7 +291,7 @@ h2{
 }
 
 #footer{
-background: white;
+background: black;
  width: 100%;
  height: 90px;
  top: 0;
@@ -300,7 +300,7 @@ background: white;
 text-align:center;
 font-family: verdana;
 font-size:12px;
-color: black;
+color: white;
 }
 
 .hover{
@@ -323,7 +323,7 @@ display:none;
 bottom:3px;
 height:500px;
 width:100%;
-background:white;
+background:black;
 }	
 	.image{
 	top: 0;
@@ -360,13 +360,13 @@ right:10px;
 }
 
 #video{
-	background:white;
+	background:black;
 	height:2350px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 	
@@ -374,12 +374,12 @@ right:10px;
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 		display:none;
-		color:black;
+		color:white;
 }
 	
 	#work{
@@ -388,13 +388,13 @@ right:10px;
 	}
 
 #research{
-	background:white;
+	background:black;
 	height:2050px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 .research{
@@ -411,17 +411,16 @@ right:10px;
  display: none;
  position: absolute;
  padding: 20px;
- background: white;
+ background: black;
  right: 10px;
  top: 65px;
  width: 30%;
- color:black;
+ color:white;
  }
  
  
  nav:hover ul {
  display: block;
- color: orange;
  }
  
  nav li {
@@ -459,7 +458,7 @@ display:none;
 bottom:3px;
 height:540px;
 width:100%;
-background:white;
+background:black;
 }	
 	
 .img{
@@ -492,7 +491,7 @@ background:white;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 	height:650px;
 	width:100%;
 	
@@ -504,7 +503,7 @@ background:white;
 	font-size:36px;
 		float:left;
 	padding:100px;
-	color:black;
+	color:white;
 	width:33%;
 		padding-right:200px;
 	
@@ -529,23 +528,23 @@ background:white;
 }
 
 #video{
-	background:white;
+	background:black;
 	height:2413px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 #research{
-	background:white;
+	background:black;
 	height:2100px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 .research{
@@ -560,43 +559,43 @@ background:white;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
-	background:white;
+	color:white;
+	background:black;
 }	
 	#phone{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 		display:none;
-		color:black;
+		color:white;
 }
 
 #email{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:black;
+	color:white;
 }
 	
 	#socialmedia{
 	height:130px;
 	width:50%;
 	font-size:20px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
-		color:black;
+		color:white;
 }
 	
 
@@ -628,24 +627,24 @@ background:white;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 			display:none;
-			color:black;
+			color:white;
 }
 
 #email{
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:black;
+	color:white;
 
 }
 	
@@ -653,12 +652,12 @@ background:white;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
-		color:black;
+		color:white;
 }
 	
 		.photo{
@@ -681,23 +680,23 @@ background:white;
 }
 
 #video{
-	background:white;
+	background:black;
 	height:1760px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 #game{
-	background:white;
+	background:black;
 	height:1350px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 	
 	#work{
@@ -716,18 +715,18 @@ background:white;
 	margin:0 auto;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
-	background:white;
+	color:white;
+	background:black;
 }	
 	
 #research{
-	background:white;
+	background:black;
 	height:2800px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 .research{
@@ -775,7 +774,7 @@ background:white;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 	
 }
 	
@@ -783,7 +782,7 @@ background:white;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 	height:940px;
 	width:100%;
 	
@@ -792,12 +791,12 @@ background:white;
 #title{
 	height:65px;
 	width:100%;
-	background:white;
+	background:black;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
 	margin-top:-7px;
-	color:black;
+	color:white;
 
 }
 	
@@ -820,24 +819,24 @@ background:white;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 			display:none;
-			color:black;
+			color:white;
 }
 
 #email{
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 		font-family:verdana;
 	display:none;
-	color:black;
+	color:white;
 
 }
 	
@@ -845,12 +844,12 @@ background:white;
 	height:100px;
 	width:83%;
 	font-size:18px;
-	background:white;
+	background:black;
 	text-align:center;
 	margin:0 auto;
 	font-family:verdana;
 		display:none;
-		color:black;
+		color:white;
 }
 	
 		.photo{
@@ -872,23 +871,23 @@ background:white;
 }
 
 #video{
-	background:white;
+	background:black;
 	height:1800px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 #game{
-	background:white;
+	background:black;
 	height:1380px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }	
 	#work{
 	height:3150px;
@@ -900,13 +899,13 @@ background:white;
 }
 
 #research{
-	background:white;
+	background:black;
 	height:2950px;
 	width:100%;
 	text-align:center;
 	font-family:verdana;
 	font-size:18px;
-	color:black;
+	color:white;
 }
 
 .research{
