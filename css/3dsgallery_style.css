@@ -24,7 +24,7 @@
 	width:100%;
 	height:1420px;
 	text-align:center;
-	background:black;
+	background:white;
 	
 }
 
@@ -940,3 +940,4 @@
 .img12{
 	background-image:url(../image/photo12.jpg);
 	background-size:100% 300px;
+}
